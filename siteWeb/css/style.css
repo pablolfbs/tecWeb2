@@ -1,0 +1,209 @@
+* {
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	margin: 0px;
+}
+
+.left{
+	float: left;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.right{
+	float: right;
+	height: 50px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.menu {
+	list-style: none;
+}
+
+.menu > li {
+	float: left;
+	border-right: 1px solid #c0c0c0;
+}
+
+.menu > li > a {
+	color: #D2691E;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.menu > li > a:hover{
+	background: #8B795E;
+	color: #ffffff;
+	-moz-box-shadow: 0 0px 10px 0 #CCCCCC;
+	-webkit-box-shadow: 0 0px 10px 0 #CCCCCC;
+	text-shadow: 0px 0px 5px #ffffff;
+	border-radius: 20px;
+	transition-duration: 0.2s;
+}
+
+.parent{
+	background-color: #000000;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.imagem_principal{
+	width: 100%;
+}
+
+figure{
+	position: relative;
+	margin: 0px;
+	top: 0px;
+	height: 300px;
+}
+
+.figcaption-banner{
+	position: absolute;
+	top: 0px;
+	color: white;
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	font-family: verdana;
+	text-align: center;
+	padding-top: 50px;
+	text-shadow: black 2px 2px 5px;
+}
+
+h2, h4{
+	text-align: center;
+	color: #FFFAFA;
+	font-family: arial;
+}
+
+.cursos{
+	background-color: #1C1C1C;
+	width: 100%;
+	position: relative;
+}
+
+.curso{
+	border: 1px solid gray;
+	width: 250px;
+	height: 400px;
+	box-shadow: 3px 3px 10px #F5F5F5;
+	float: left;
+	background-color: white;
+	margin: 30px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+}
+
+.curso p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.curso h3{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.cursos_tecnicos{
+	margin: 0px auto;
+	background-color: #1C1C1C;
+	height: 600px;
+	width: 950px;
+}
+
+.imagem{
+	width: 250px;
+	height: 200px;
+	border: 1px solid #454444;
+}
+
+.sobre_nos {
+	background-color: #F1F8E0;
+	width: 100%;
+	position: relative;
+}
+
+.sectionSobre {
+	margin: 0px auto;
+	height: 650px;
+	width: 950px;
+	background-color: #F1F8E0;
+}
+
+.img_esquerda {
+	float: left;
+	margin: 10px;
+}
+
+.img_direita {
+	float: right;
+	margin: 10px;
+}
+
+.sectionSobre p {
+	text-align: justify;
+	font-size: 16px;
+	color: #333333;
+	font-family: "Verdana";
+	line-height: 40px;
+}
+
+.sectionSobre h2 {
+	text-align: center;
+	color: black;
+	font-family: arial;
+}
+
+.clear {
+	clear: both;
+}
+
+.motivos {
+	background-color: white;
+	width: 100%;
+	position: relative;
+}
+
+.sectionMotivo {
+	margin: 0px auto;
+	height: 650px;
+	width: 950px;
+	background-color: white;
+}
+
+.sectionMotivo h2 {
+	text-align: center;
+	color: black;
+	font-family: arial;
+}
+
+.itemMotivo {
+	border: 1px solid gray;
+	width: 300px;
+	height: 250px;
+	float: left;
+	background-color: white;
+	text-align: justify;
+	margin: 10px;
+	padding: 5px;
+}
