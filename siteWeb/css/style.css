@@ -207,3 +207,62 @@ body{
 	padding: 5px;
 	text-align: justify;
 }
+
+.itemMotivo div {
+	margin: 10px;
+	text-align: justify;
+}
+
+.rodape {
+	background-color: #0a2a18;
+	width: 100%;
+	position: relative;
+}
+
+.footerSite {
+	margin: 0px auto;
+	height: 400px;
+	width: 950px;
+	background-color: #0a2a18;
+}
+
+.itemFooter {
+	width: 250px;
+	height: 300px;
+	float: left;
+	margin-top: 30px;
+	margin-right: 65px;
+}
+
+.itemFooter h2 {
+	font-size: 14px;
+	color: white;
+	font-family: "Verdana";
+	text-align: left;
+	padding-bottom: 50px;
+}
+
+.userIcone {
+	color: white;
+	padding-right: 30px;
+}
+
+.textoEndereco {
+	font-size: 14px;
+	color: white;
+	font-family: "Verdana";
+	text-align: left;
+}
+
+.textoEncontro {
+	font-size: 14px;
+	color: white;
+	font-family: "Verdana";
+	text-align: left;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	background: #999;
+}
