@@ -24,9 +24,6 @@ body {
     text-decoration: none;
     padding: 5px 10px;
 }
-div {
-    color: white;
-}
 .imagem_principal{
    height: 400px;
 	width: 100%;
@@ -35,7 +32,6 @@ figure{
 	position: relative;
 	margin: 0px;
 	top: 0px;
-	height: 300px;
 }
 .figcaption-banner{
 	position: absolute;
@@ -53,4 +49,7 @@ figure{
 	width: 250px;
 	height: 200px;
 	border: 1px solid #454444;
+}
+.container {
+	text-align: justify;
 }
