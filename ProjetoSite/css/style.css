@@ -53,3 +53,29 @@ figure{
 .container {
 	text-align: justify;
 }
+hr {
+	border-color: white;
+}
+.userIcone {
+	padding-right: 30px;
+}
+.textoEndereco {
+	font-size: 14px;
+	font-family: "Verdana";
+	text-align: left;
+}
+.textoEncontro1 {
+	font-size: 14px;
+	font-family: "Verdana";
+	text-align: left;
+}
+.textoEncontro2 {
+	font-size: 14px;
+	font-family: "Verdana";
+	text-align: left;
+	margin-left: 50px;
+}
+.carousel-inner {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
