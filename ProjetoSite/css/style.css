@@ -50,8 +50,15 @@ figure{
 	height: 200px;
 	border: 1px solid #454444;
 }
-.container {
+.texto {
 	text-align: justify;
+	background-color: #F1F8E0;
+	width: 100%;
+	position: relative;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	margin-top: 30px;
 }
 hr {
 	border-color: white;
@@ -75,7 +82,17 @@ hr {
 	text-align: left;
 	margin-left: 50px;
 }
-.carousel-inner {
-	margin-top: 30px;
-	margin-bottom: 30px;
+.parallax { 
+    /* The image used */
+	background-image: url("../img/empresa1.jpg");
+	background-color: #cccccc;
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
