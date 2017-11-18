@@ -14,40 +14,56 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-    <div class="container">
-      <a class="navbar-brand" href="#">EMPRESA</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav float-left">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">empresa</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">produtos</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              minha conta
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">editar</a>
-              <a class="dropdown-item" href="#">sair</a>
-            </div>
-          </li>
-        </ul>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" width="40" height="40" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav float-left">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">empresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">produtos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Entrar
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="entrar">
+                <div class="col-md-12">
+                  <p>Você possui uma conta?</p>
+                  <form method="post" action="" id="formLogin">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="campo_usuario" name="usuario" placeholder="Usuário" />
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control red" id="campo_senha" name="senha" placeholder="Senha" />
+                    </div>
+                    <button type="buttom" class="btn btn-primary" id="btn_login">Entrar</button>
+                    <br />
+                    <br />
+                  </form>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -57,7 +73,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="img/empresa1.jpg" alt="First slide" width="100%" height="400px">
+        <img class="d-block w-100" src="img/empresa1.jpg" alt="First slide" max-width="100%" height="400px">
         <div class="carousel-caption d-none d-md-block">
           <h3>Empresas parceiras</h3>
           <p>Diversas empresas com parceria e novas a caminho</p>
@@ -82,6 +98,7 @@
 
   <section class="texto" style="margin-top: 0; margin-bottom: 0;">
     <div class="container">
+      <h1>EMPRESA</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce arcu ante, tempus in ligula vel, vestibulum semper libero.
         Donec nec consectetur libero. Nulla lectus ante, aliquet vel odio vestibulum, fringilla suscipit sapien. Mauris rutrum
         commodo urna, a ornare tellus malesuada a. Praesent vitae erat convallis, auctor urna vitae, mattis felis. Mauris
@@ -131,7 +148,7 @@
   <footer>
     <div class="p-3 mb-2 bg-dark text-white">
       <div class="container">
-        <div class="row">
+        <div class="row rodape">
           <div class="col-sm-4">
             <article>
               <h5>Contato</h5>
